@@ -8,6 +8,8 @@ import { Provider } from "react-redux";
 import { ReactReduxFirebaseProvider } from "react-redux-firebase";
 import { createFirestoreInstance } from "redux-firestore";
 import { rootReducer } from "./reducers";
+
+import './styles/styles.css';
 import App from "./App";
 
 const firebaseConfig = {

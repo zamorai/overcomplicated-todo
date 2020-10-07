@@ -9,8 +9,8 @@ function App() {
 
 
   return (
-    <div style = {{textAlign: "center"}}>
-      <h1>Redux Todo App</h1>
+    <div className='font-quick' style= {{textAlign: "center"}}>
+      <h1 className='bg-gray-600 h-12 flex items-center justify-center'>Redux Todo App</h1>
       <Router>
         <Switch>
           <PrivateRoute path = "/todos">
